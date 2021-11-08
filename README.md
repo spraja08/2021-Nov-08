@@ -6,4 +6,5 @@
 
 - `git add <FILE>` : adds the file to the staging area
 - `git commit` : opens up the configured text editor to type the message
+- `git commit -m "<message>"` : commits with the given message 
 
