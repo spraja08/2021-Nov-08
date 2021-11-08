@@ -1,4 +1,4 @@
-2021-Nov-08
+2021-Nov-08 : Git Basics
 
 - 'git init` : ceate a git repo in the current folder
 	- only need to do this once, do not nest repos
@@ -23,4 +23,10 @@
 - `git restore ...' : to restore
 - `git checkout <HASH>` : to move all tje files to their versions in <HASH>
 	- `git checkout main` : to back to main branch
-	- `git switch main`, `git checkout master` : might do the same thing.
+	- `git switch main`, `git checkout master` : might do the same thing
+
+#Remotes
+
+- `git remote add origin <URL>` : Assigns the URL as the remote with the name origin
+- `git push origin master` : pushes the master branch to the origin
+- `git pull origin master`:  oulls the main branch from the remote down to the local
